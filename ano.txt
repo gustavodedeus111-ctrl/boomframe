@@ -1,5 +1,0 @@
-def update():
-    for i, bloco in enumerate(blocos):
-        bloco.x -= direcoes[i] * time.dt
-        if abs(bloco.x) > 5:
-            direcoes[i] *= -1
